@@ -1,4 +1,4 @@
-package me.aravi.loadersample;
+package me.aravi.loader;
 
 import org.junit.Test;
 

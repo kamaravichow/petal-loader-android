@@ -1,4 +1,4 @@
-package me.aravi.loadersample;
+package me.aravi.loader;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("me.aravi.loadersample", appContext.getPackageName());
+        assertEquals("me.aravi.loader", appContext.getPackageName());
     }
 }

@@ -3,12 +3,13 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "me.aravi.loadersample"
-        minSdk 21
-        targetSdk 30
+        applicationId "me.aravi.loader"
+        minSdkVersion 21
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
@@ -31,8 +32,9 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
+    
     implementation(project(':loader'))
 
     testImplementation 'junit:junit:4.+'
